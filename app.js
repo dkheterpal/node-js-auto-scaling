@@ -7,6 +7,6 @@ app.get('/', (req, res) => {
 })
 
 app.listen(port, () => {
-  const ip = ${req.headers['x-forwarded-for'] || req.socket.remoteAddress};
-  console.log(`Demo app is up and listening to port ${port} and the ip is ${ip}`);
+  const ip = req.headers['x-forwarded-for'] || req.socket.remoteAddress;
+console.log(`Demo app is up and listening to port ${port} and the ip is ${ip}`);
 })
