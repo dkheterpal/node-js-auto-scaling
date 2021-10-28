@@ -17,9 +17,9 @@ sudo yum update -y
 sudo yum install git -y
 cd /home/ec2-user
 # get source code from githubt
-git clone https://github.com/dkheterpal/node-js-auto-scaling
+https://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:x-oauth-basic@github.com/ControlX/auto-scale-trial.git
 #get in project dir
-cd node-js-auto-scaling
+cd auto-scale-trial
 #give permission
 sudo chmod -R 755 .
 #install node module
